@@ -3,6 +3,7 @@
 # The backend option specifies how to access the content for your site
 backend:
   name: git-gateway
+  repo: Harris170/Cooking-Blog
   branch: master # The branch to update (optional; defaults to master)
 
 # Uncomment below to enable drafts https://www.netlifycms.org/docs/add-to-your-site/#editorial-workflow
