@@ -1,16 +1,17 @@
 :root {
 
-	/*
+
 	--primary: #1e1e1e;
 	--secondary:#D5B895;
 	--tertiary: #A67A5B;
 	--background: #FAFDF3;
-*/
 
+/*
 --primary: #FAFDF3;
 --secondary:#A67A5B;
 --tertiary: #D5B895;
 --background: #1e1e1e;
+*/
 
 }
 
@@ -251,6 +252,9 @@ button {
 	width:16em;
 	height: 8em;
 	overflow:hidden;
+	border-style:solid;
+	border-width: 0.1em;
+	border-color: var(--tertiary);
 }
 
 .individual_recipe{
