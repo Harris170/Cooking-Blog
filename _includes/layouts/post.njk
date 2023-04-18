@@ -10,8 +10,7 @@ section: post
       <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
     </small>
   </p>
-
-  {{ layoutContent | safe }}
+    {{ layoutContent | safe }}
 
   {% if tags %}
     <p>
