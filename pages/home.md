@@ -9,4 +9,4 @@ eleventyNavigation:
 ---
 # Deez Nuts
 
-H﻿ello silly woman lol
+Hello silly woman lol
