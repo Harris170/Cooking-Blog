@@ -1,18 +1,29 @@
 <nav class="nav"> 
+  <ul>
+      <a href="/">Home</a>
+      <a href="/about/index.html">About</a>
+  </ul>
+
   <div class="logo">
     <a href="/">
       <img src="/static/img/logo.svg" alt="GrubStories Logo" class="logo_image">
-    </a>
+    </a>    
     <a href="{{ '/' | url }}">{{ metadata.title }}</a>
   </div>
   
   {% set navPages = collections.all | eleventyNavigation %}
   <ul class="nav_links">
+    {#
     {%- for entry in navPages %}
       <li>
         <a href="{{ entry.url | url }}" {% if entry.url == page.url %} data-current="current item" {% endif %}>{{ entry.title }}</a>
+        
       </li>
     {%- endfor %}
+    #}
+    <a href="/blog/index.html">Recipes</a>
+    <a href="/tidbit_gayaan/index.html">Tidbit Gayaan</a>
+    <a href="/contact/index.html">Contact Me</a>
   </ul>
 
 </nav>

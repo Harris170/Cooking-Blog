@@ -52,7 +52,6 @@ a[href]:visited {
 
 a[href]:hover {
 	text-decoration:underline;
-	background-color: none;
 	color: var(--tertiary);
 }
 
@@ -241,10 +240,6 @@ button {
 	color: #A67A5B;
 }
 
-.nav_item{
-	color:#1e1e1e;
-}
-
 @media only screen and (min-width: 700px) {
 	.nav{
 		display: inline-flex;
@@ -261,4 +256,6 @@ button {
 		align-items: center;
 		gap:48px;
 	}
+
+	
 }
