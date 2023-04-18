@@ -20,7 +20,12 @@
 
 		<main>
 			{{ layoutContent | safe }}
+
+			<h1>Featured Recipes</h1>
+			{% set postslist = collections.featured %}
+			{% include "components/postslist.njk" %}
 		</main>
+
 
 		{% include "components/footer.njk" %}
 
