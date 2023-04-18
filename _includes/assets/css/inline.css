@@ -250,17 +250,14 @@ button {
 	align-items: center;
 	justify-content: center;
 	width:16em;
-	height: 8em;
+	height: 9em;
 	overflow:hidden;
-	border-style:solid;
-	border-width: 0.1em;
-	border-color: var(--tertiary);
 }
 
 .individual_recipe{
 	display: flex;
 	flex-direction: row-reverse;
-	align-items: center;
+	justify-content: start;
 	gap: 2em;
 }
 
