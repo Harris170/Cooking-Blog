@@ -2,5 +2,10 @@
 layout: layouts/base.njk
 section: home
 ---
+<div class="featured_recipes">
+    <h2>Featured Recipes</h2>
+    {% set postslist = collections.featured %}
+    {% include "components/postslist.njk" %}
+</div>
 
 {{ layoutContent | safe }}

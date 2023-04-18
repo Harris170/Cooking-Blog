@@ -7,19 +7,21 @@ section: post
   <h1>{{ title }}</h1>
   <p>
     <small>
-      <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
+      <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time>
+      by
+      <a href="/authors/{{ author | slug }}/">{{ author }}</a>
     </small>
   </p>
-    {{ layoutContent | safe }}
+  {{ layoutContent | safe }}
 
   {% if tags %}
     <p>
-    {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-      {%- endif -%}
-    {% endfor %}
+      {% for tag in tags %}
+        {%- if tag != "post" -%}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+        {%- endif -%}
+      {% endfor %}
     </p>
   {% endif %}
 
@@ -27,4 +29,10 @@ section: post
 
 <nav>
   <a href="{{ '/blog/' | url }}">← All Recipes</a>
+  
+  <div class="featured_recipes">
+    <h2>Featured Recipes</h2>
+    {% set postslist = collections.featured %}
+    {% include "components/postslist.njk" %}
+  </div>
 </nav>

@@ -27,8 +27,10 @@ body {
 }
 
 body {
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	height: 100vh;
+	align-items: center;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
 }
@@ -111,7 +113,6 @@ header nav ul {
 	justify-content:center;
 	align-items: center;
 	gap: 28px;
-	
 	padding: 0;
 	list-style: none;
 }
@@ -233,4 +234,9 @@ button {
 
 .recipe_summary{
 	color:var(--tertiary);
+}
+
+.featured_recipes{
+	margin-top: 2em;
+	color: #A67A5B;
 }
