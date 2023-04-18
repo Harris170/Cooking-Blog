@@ -22,15 +22,12 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Kulim Park', sans-serif;
 	color:var(--primary);
 }
 
 body {
-	display: flex;
-	flex-direction: column;
 	height: 100vh;
-	align-items: center;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
 }
@@ -53,10 +50,13 @@ a[href]:visited {
 a[href]:hover {
 	text-decoration:underline;
 	color: var(--tertiary);
+	font-weight: 400;
 }
 
 a[href]:not(:hover) { 
-	text-decoration: none;
+	text-decoration: underline;
+	font-weight: 400;
+	color:var(--primary);
 }
 
 img {
@@ -64,15 +64,27 @@ img {
 	height: auto;
 }
 
-header,
-footer {
+header{
+	display: flex;
+	padding: 1em;
+	background-color: var(--secondary);
+	width: 100vw;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+footer{
 	color:var(--tertiary);
 	padding: 1em;
+	width: 100vw;
 }
 
 main {
+	display: flex;
+	flex-direction: column;
 	padding:1em;
-	padding-bottom: 2em;
+	align-self: center;
+	justify-content: center;
 }
 
 main :first-child,
@@ -114,6 +126,7 @@ header nav ul {
 	gap: 28px;
 	padding: 0;
 	list-style: none;
+	
 }
 
 header nav ul :first-child {
