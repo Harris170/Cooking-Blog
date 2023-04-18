@@ -8,4 +8,3 @@ eleventyNavigation:
   key: Recipes
   order: 2
 ---
-## **R﻿ecents**
