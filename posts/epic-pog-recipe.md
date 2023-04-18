@@ -8,7 +8,7 @@ tags:
   - featured
   - egg
   - breakfast
-featured_image: /static/img/sprites.png
+featured_image: /static/img/anh-nguyen-kca-c3f_3fe-unsplash.jpg
 featured_image_caption: food
 ---
 H﻿ello ping pong
