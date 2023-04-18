@@ -34,6 +34,7 @@ body {
 
 main {
 	max-width: 37.5em;
+	padding: 1em;
 }
 
 p,
@@ -66,25 +67,15 @@ img {
 
 header{
 	display: flex;
-	padding: 1em;
 	background-color: var(--secondary);
-	width: 100vw;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
+	padding: 1em;
 }
 
 footer{
 	color:var(--tertiary);
 	padding: 1em;
-	width: 100vw;
-}
-
-main {
-	display: flex;
-	flex-direction: column;
-	padding:1em;
-	align-self: center;
-	justify-content: center;
 }
 
 main :first-child,
