@@ -10,7 +10,7 @@ tags:
   - sport
   - deez
   - nuts
-featured_image: /static/img/logo.png
+featured_image: ""
 featured_image_caption: Caption Test
 metaDescription: This is a sample meta description. If one is not present in
   your page/post's front matter, the default metadata.description will be used
