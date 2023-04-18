@@ -27,6 +27,8 @@ collections:
       - { label: "Author", name: "author", widget: "string", default: "Anonymous" }
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Featured Image", name: "featured_image", widget: "image", required: false }
+      - { label: "Featured Image Caption", name: "featured_image_caption", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
   - name: "pages"

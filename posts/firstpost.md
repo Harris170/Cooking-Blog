@@ -13,6 +13,8 @@ tags:
   - sport
   - deez
   - nuts
+featured_image: /static/img/logo.png
+featured_image_caption: Caption Test
 ---
 Leverage agile blockchain frameworks to provide a robust blockchain synopsis for high level blockchain overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
