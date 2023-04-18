@@ -5,6 +5,9 @@ author: Anonymous
 summary: test 123
 tags:
   - post
+  - featured
+  - egg
+  - breakfast
 featured_image: https://unsplash.com/photos/kcA-c3f_3FE
 featured_image_caption: food
 ---
