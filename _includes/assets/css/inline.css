@@ -1,7 +1,17 @@
 :root {
-	--primary: #ee5142;
-	--secondary:white;
-	--background: #1e1e1e;
+
+	/*
+	--primary: #1e1e1e;
+	--secondary:#D5B895;
+	--tertiary: #A67A5B;
+	--background: #FAFDF3;
+*/
+
+--primary: #FAFDF3;
+--secondary:#A67A5B;
+--tertiary: #D5B895;
+--background: #1e1e1e;
+
 }
 
 *, *:before, *:after {
@@ -13,7 +23,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	color:white;
+	color:var(--primary);
 }
 
 body {
@@ -36,12 +46,12 @@ code {
 a[href],
 a[href]:visited {
 	color: var(--primary);
-	
 }
 
 a[href]:hover {
-	text-decoration:none;
+	text-decoration:underline;
 	background-color: none;
+	color: var(--tertiary);
 }
 
 a[href]:not(:hover) { 
@@ -54,12 +64,13 @@ img {
 }
 
 header,
-main,
 footer {
+	color:var(--tertiary);
 	padding: 1em;
 }
 
 main {
+	padding:1em;
 	padding-bottom: 2em;
 }
 
@@ -96,6 +107,11 @@ header > em {
 
 /* Header Nav */
 header nav ul {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	gap: 64px;
+	
 	padding: 0;
 	list-style: none;
 }
@@ -119,14 +135,14 @@ header nav li a[href]:not(:hover) {
 }
 
 header nav li a[data-current="current item"] {
-	background-color: white;
+	background-color: var(--secondary);
 }
 
 /* Posts List */
 article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid var(--tertiary);
 	border-bottom: 1px solid var(--secondary);
 }
 
@@ -200,4 +216,21 @@ button {
 	:root {
 		font-size: 1.1rem;
 	}
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	font-size: 48px;
+}
+
+.logo_image{
+	width: 48px;
+	height: 48px;
+}
+
+.recipe_summary{
+	color:var(--tertiary);
 }
