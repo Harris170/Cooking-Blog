@@ -75,6 +75,11 @@ header{
 }
 
 footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 	color:var(--tertiary);
 	padding: 1em;
 }
@@ -245,6 +250,11 @@ button {
 	color: #A67A5B;
 }
 
+.featured_recipes_header{
+	font-size: 2em;
+	font-weight: 600;
+}
+
 .individual_recipe_image{
 	display: flex;
 	align-items: center;
@@ -260,6 +270,15 @@ button {
 	justify-content: start;
 	gap: 2em;
 }
+
+.content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1em;
+}
+
 
 @media only screen and (min-width: 700px) {
 	.nav{
