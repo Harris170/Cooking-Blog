@@ -7,4 +7,8 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-E﻿pic Pogger Recipe Blog les GOOOOOOOOOOOOO
+E﻿pic Pogger Recipe Blog les GOOOOOOOOOOOO
+
+
+
+### **[Small writeup for about me ....](https://yashnas-cooking-blog.netlify.app/about/)**
