@@ -6,15 +6,6 @@
 	<body>
 
 		<header>
-			{#<em>
-				{<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-				{% include "components/nav.njk" %}
-			</em>#}
-
-			<div class="logo">
-				<a href="/"> <img src="/static/img/logo.svg" alt="GrubStories Logo" class="logo_image" > </a>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</div>
 			{% include "components/nav.njk" %}
 		</header>
 
