@@ -1,7 +1,7 @@
 // Add your inline JS here
 
 // Saving Theme in local storage //
-const colorThemes = document.querySelectorAll('[name="theme"]');
+const colorThemes = document.querySelectorAll('input[name="theme"]');
 
 const storeTheme = function(theme){
     localStorage.setItem("theme", theme);
@@ -19,7 +19,7 @@ const retrieveTheme = function() {
 };
 
 colorThemes.forEach( (themeOption)  => {
-    _themeColor.addEventListener("click",()=>{
+    _themeColor.addEventListener("input",()=>{
         storeTheme(themeOption.id);
     });
 });

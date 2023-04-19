@@ -1,33 +1,8 @@
 :root {
-
-	 /* Light Mode - Pink */
-	/*
-	--primary: #D14D72;
-	--secondary:#FCC8D1;
-	--tertiary: #fd5454df;
-	--background: #FEF2F4;
-	*/
-
-	/* Dark Mode - Purple */
-	/*--primary: #FFECEF;
-	--secondary:#4d3966;
-	--tertiary: #FFCACA;
-	--background: #251B37;*/
-
-	/* Light Mode - Peach (Default) */
-	--primary: #9c3713;
-	--secondary:#FFBF9B;
-	--tertiary: #B46060;
-	--background: #FFF4E0;
-	
-	
-	/* Dark Mode - Chocolate */
-	/*
-	--primary: #FFFBEB;
-	--secondary:#594545;
-	--tertiary: #FAAB78;
-	--background: #362222;
-	*/
+	--primary: black;
+	--secondary:black;
+	--tertiary: black;
+	--background: black;
 }
 
 *, *:before, *:after {
@@ -213,7 +188,7 @@ a[rel="tag"]:last-child {
 /* Contact Form */
 form {
   display: grid;
-	padding: 2em 0;
+  padding: 0;
 }
 
 form label {
@@ -240,10 +215,6 @@ button {
 	background-color: var(--primary);
 	color: var(--secondary);
 	cursor: pointer;
-}
-
-form{
-	padding:0 0 0 0;
 }
 
 .logo{
