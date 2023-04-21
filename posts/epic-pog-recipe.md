@@ -2,18 +2,17 @@
 title: Epic Pog Recipe
 date: 2023-04-18T17:34:40.791Z
 author: Harris Cool Boy
-summary: test 123
+summary: summary test of the most epic omeltte recipe uv ever seen
 tags:
   - post
   - featured
   - egg
   - breakfast
+  - epic
 featured_image: /static/img/anh-nguyen-kca-c3f_3fe-unsplash.jpg
 featured_image_caption: food
 ---
 H﻿ello ping pong
-
-
 
 ### S﻿teps
 
