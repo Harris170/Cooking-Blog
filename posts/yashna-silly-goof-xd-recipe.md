@@ -1,7 +1,7 @@
 ---
 title: yashna silly goof XD recipe
 date: 2023-04-21T16:58:24.702Z
-author: Harris Cool Boi
+author: Sample
 summary: most silliest woman ive ever seen
 tags:
   - post
