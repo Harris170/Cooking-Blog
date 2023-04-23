@@ -1,8 +1,8 @@
 ---
-title: Epic Pog Recipe
+title: Sample Recipe
 date: 2023-04-18T17:34:40.791Z
-author: Harris Cool Boy
-summary: summary test of the most epic omeltte recipe uv ever seen
+author: Test abc
+summary: Summary test of recipe
 tags:
   - post
   - featured
