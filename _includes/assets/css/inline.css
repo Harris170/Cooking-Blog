@@ -1,3 +1,11 @@
+:root{
+	/* Light Mode - Peach (Default) */
+	--primary: #9c3713;
+	--secondary:#FFBF9B;
+	--tertiary: #B46060;
+	--background: #FFF4E0;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
