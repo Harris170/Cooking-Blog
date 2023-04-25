@@ -9,4 +9,4 @@ eleventyNavigation:
 ---
 T﻿est recipe Blog
 
-### **[Small writeup for about me ....](https://yashnas-cooking-blog.netlify.app/about/)**
+### **[Small writeup for about me ....](https://grub-stories.netlify.app/about/)**
